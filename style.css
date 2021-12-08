@@ -4,6 +4,11 @@
   --color-primary: #006241;
   --color-secondary: #d50032;
   --color-extra: #d4e9e2;
+  --color-starbuck: #1e3932;
+}
+
+.text-green {
+  color: var(--color-primary);
 }
 
 * {
@@ -122,6 +127,16 @@ section a {
 /* Box */
 .box-a {
   margin-top: 30px;
+}
+.box-a h2 {
+  color: var(--color-starbuck);
+  font-weight: bolder;
+  line-height: 1.2;
+}
+.box-a p {
+  color: var(--color-starbuck);
+  font-weight: 500;
+  line-height: 1.4;
 }
 .box {
   margin-bottom: 30px;
