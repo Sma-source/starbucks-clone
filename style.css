@@ -270,6 +270,9 @@ section a {
   .grid-reversed :first-child {
     order: 0;
   }
+  .navbar-brand img {
+    width: 40px;
+  }
   .navbar .navbar-nav-left,
   .navbar .navbar-nav-right {
     display: none;
