@@ -101,6 +101,27 @@ section a {
   max-width: 700px;
   margin: 0 auto;
 }
+
+.box-text {
+  max-width: 500px;
+  text-align: center;
+  justify-self: center;
+  padding: 20px 0;
+}
+.box-text .btn {
+  margin-top: 20px;
+}
+/* Grid Styles */
+.grid-col-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.grid-reversed :first-child {
+  order: 2;
+}
 /* Buttons */
 .btn {
   cursor: pointer;
@@ -165,6 +186,7 @@ section a {
   font-size: 50px;
   text-transform: uppercase;
   letter-spacing: 6px;
+  line-height: 1.2;
   font-weight: 600;
   margin-bottom: 20px;
 }
