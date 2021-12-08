@@ -304,6 +304,9 @@ section a {
 }
 
 @media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
   .grid-col-2 {
     grid-template-columns: 1fr;
   }
